@@ -13,6 +13,10 @@ Quarterback solves this problem for languages with a [foreign function interface
 
 As of yet there are no special build instructions.
 
+```bash
+cl /Yu"pch.h" /GS /analyze- /W3 /Zc:wchar_t /Zi /Od /Fd"Debug\vc141.pdb" /Zc:inline /fp:precise /D "WIN32" /D "_DEBUG" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /D "QTRBKLIB_EXPORTS" /errorReport:prompt /WX- /Zc:forScope /Oy- /clr /FU"C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Interop.QBXMLRP2\v4.0_27.0.151.3006__8244b228ecdaef5e\Interop.QBXMLRP2.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.1\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.1\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.1\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.1\System.Xml.dll" /MDd /FC /Fa"Debug\" /EHa /nologo /Fo"Debug\" /Fp"Debug\QtrBkLib.pch" /diagnostics:classic 
+```
+
 ### Configure
 
 To make the QtrBk.dll library available to your PHP web application, the dll path must be accessible through the `PATH` environment variable.
