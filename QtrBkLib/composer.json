@@ -1,0 +1,19 @@
+{
+    "name": "korabe/qtrbk",
+    "description": "QtrBk Assembly",
+    "type": "library",
+    "license": "Apache",
+  "authors": [
+    {
+      "name": "Bryon Bean",
+      "email": "bryon@korabedesign.com"
+    },
+    {
+      "name": "Jared Kozel",
+      "email": "jared@korabedesign.com"
+    }
+  ],
+    "minimum-stability": "dev",
+  "require": {},
+  "bin": "QtrBkLib.dll"
+}
